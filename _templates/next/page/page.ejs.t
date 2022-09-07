@@ -10,16 +10,13 @@ to: pages/<%= h.inflection.dasherize(h.inflection.underscore(name)) %>.js
 
 // Packages
 import * as React from 'react';
-
 // Lib UI components
-
 
 // Local UI components
 import PageLayout from '../shared/PageLayout';
 
-
 // Style
-import '../page-styles/<%= pageName %>.scss';
+import '../style/page-styles/<%= pageName %>.module.scss';
 
 /* -------------------------------------------------------------------------- */
 /*                                    Page                                    */

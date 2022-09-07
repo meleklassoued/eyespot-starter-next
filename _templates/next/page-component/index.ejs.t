@@ -25,7 +25,7 @@ import PropTypes from 'prop-types';
 // @TODO: Import any helper or service here
 
 // Style
-import './index.scss';
+
 
 /* -------------------------------------------------------------------------- */
 /*                                  Component                                 */
