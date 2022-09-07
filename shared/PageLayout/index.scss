@@ -1,0 +1,15 @@
+.page-layout {
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100vw;
+
+  @media (min-width: 5em) and (max-width: 80em) {
+    h3 {
+      font-size: 25px;
+    }
+  }
+}

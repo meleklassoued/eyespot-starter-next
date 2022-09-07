@@ -1,0 +1,10 @@
+/* -------------------------------------------------------------------------- */
+/*                      Other globals than theme globals                      */
+/* -------------------------------------------------------------------------- */
+
+html,
+body {
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
+}

@@ -1,0 +1,132 @@
+/*#########*/
+/* Navbar */
+/*#########*/
+.navbar {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 9001;
+
+  &.bg-white {
+    background-color: #fff;
+  }
+
+  & > div {
+    width: 100%;
+  }
+}
+.nav-center {
+  width: 100%;
+  max-width: 100%;
+}
+.nav-header {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header img {
+  margin-top: 20px;
+  margin-left: -6px;
+  margin-bottom: -9px;
+}
+.nav-btn {
+  padding: 0px 0px 15px 0px;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.nav-btn svg {
+  font-size: 1.5rem;
+}
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-menu-links {
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.show-links {
+  height: calc(100vh - 6rem);
+  width: 100vw;
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.nav-link {
+  font-family: 'RobotoCondensed';
+  font-style: normal;
+  margin-left: 30px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.nav-link-black {
+  font-family: 'RobotoCondensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2em;
+  margin-left: 30px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+  padding: 1rem 0;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 992px) {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    height: 6rem;
+  }
+  .nav-center {
+    display: flex;
+    align-items: center;
+  }
+  .nav-header {
+    padding: 0;
+    margin-right: 2rem;
+    height: auto;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+  .nav-links {
+    height: auto !important;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-link {
+    padding: 0;
+    border-top: none;
+    text-transform: uppercase;
+  }
+}

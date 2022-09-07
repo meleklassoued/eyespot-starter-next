@@ -1,0 +1,104 @@
+/*#########*/
+/* Footer */
+/*#########*/
+
+.footer-layout {
+  background-color: black;
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  .foot-links {
+    width: 452px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 30px !important;
+    outline: none !important;
+    padding-right: 0px !important;
+  }
+
+  .foot-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #818181;
+    border-left: #818181 solid 1px;
+    padding: 0 15px 0 15px;
+  }
+
+  .foot-icons {
+    height: 26px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    outline: none !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    img {
+      padding: 0 21px;
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    color: #818181;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    outline: none !important;
+    border-left: 1px solid #c9333c;
+    line-height: 18px !important;
+    background: none !important;
+    padding: 5px 0px 5px 15px;
+  }
+
+  .phone {
+    display: flex;
+    justify-content: flex-start;
+    color: #818181;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    outline: none !important;
+    border-left: 1px solid #c9333c;
+    line-height: 18px !important;
+    background: none !important;
+    margin-left: 174px !important;
+    padding: 5px 0px 5px 15px;
+  }
+  @media (min-width: 5em) and (max-width: 80em) {
+    padding: 0 50px !important;
+    .foot-link {
+      font-size: 12px;
+      margin: 2px 0;
+    }
+    .phone {
+      margin-top: 2px;
+      margin-left: 0px !important;
+    }
+    .foot-icons {
+      flex-direction: column !important;
+      img {
+        padding: 0 2px;
+        height: 25px;
+      }
+    }
+    .info {
+      margin-top: 2px;
+    }
+  }
+}

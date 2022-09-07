@@ -1,0 +1,33 @@
+{
+  "name": "eyespot-starter-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "lint:check": "eslint --ext .js ./",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint:fix": "eslint --ext .js ./ --fix",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "husky": "^8.0.1",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.54.8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.3",
+    "@commitlint/config-conventional": "^12.1.3",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "husky": "^8.0.0"
+  }
+}
